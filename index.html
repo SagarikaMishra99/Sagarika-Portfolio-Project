@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bdd10b440f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-----hero selection start-->
+
+    <div id="hero">
+        <nav>
+            <h2 class="logo">Portfo<span>lio</span></h2>
+            <ul id="sidemenu">
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About </a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Work</a></li>
+                <li><a href="#contact">Contact </a></li>
+            </ul>
+            <i class="fa-duotone fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="content">
+            <p>Web/Front-end Developer</p>
+            <h1>Hello,My Name Is Sagarika<span>Mishra</span><br>From <span>India</span></h1>
+        </div>
+    </div>
+
+    <!---about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+              <div class="about-col-1">
+               <img src="pooja pic.jpg">
+              </div>
+              <div class="about-col-2">
+                  <h1 class="sub-title">About <span>Me</span></h1>
+                  <p>Hi, I'm Sagarika Mishra and I work as a Web Developer & Front-end Developer. I am a software engineer who loves to create websites as well as apps for people. I've worked on a variety of projects and healthcare industries. I'm passionate about creating great user experiences and have a strong understanding of usability and accessibility standards.</p>
+
+
+                 <div class="tab-titles">
+                      <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                      <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                      <p class="tab-links" onclick="opentab('education')">Education</p> 
+
+                 </div>
+                    <div class="tab-contents active-tab" id="skills">
+                          <ul>
+                            <li><span>Front-end Development</span><br>Website Development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android Apps</li>
+                          </ul>
+                    </div>
+                       <div class="tab-contents" id="experince">
+                             <ul>
+                                <li><span>1 Year Experience in</span> Front-end Development</li>
+                             </ul>
+                        </div>
+                            <div class="tab-contents" id="education">
+                               <ul>
+                                  <li><span>2022</span><br>Front-end Development Courses At Udemy</li>
+                                   <li><span>2022</span><br>Python Full Stack Development Courses At NarayanTechnology</li>
+                                   <li><span>2022</span><br>Ui/Ux Designing Courses At Naresh It</li>
+                                   <li><span>2023</span><br>MCA from Fakir Mohan University Balasore Odisha</li>
+                    
+                                </ul>
+                           </div>
+                   </div>
+                </div>
+            </div>
+       </div>
+<!----sevices-->
+  <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My <span>Services</span></h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>A web designer,or web applications designer,is responsible for designing the overall layout and aesthetic for websites.</p>
+                <a href="https://www.interaction-design.org/literature/topics/web-design">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Front-end Design</h2>
+                <p>Front-end Web development is the development of the graphical user interface of a website,through the use of HTML,CSS and Javascript,so that users can view and interact with that website.<p>
+                <a href="https://bradfrost.com/blog/post/frontend-design/">Learn more</a>
+
+            </div>
+            <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App design</h2>
+            <p>a web developer is a programmer who develops world wide web applications using a client-server model. The applications typically use HTML,CSS, and Javascript in the client,and any general-purpose programming language in the server. HTTP is used for communications between client and server.</p>
+            <a href="https://developer.android.com/design">Learn more</a>
+
+            </div>
+        </div>
+      </div>
+     </div>
+
+
+<!----portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My<span> Work</span></h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="pooja pic10.jpg">
+                <div class="layer">
+                    <h3>Covid-19 Testing Management System </h3>
+                    <p>The system is an online COVID-19 lab manager application that brings up various COVID-19 test working online.
+                    </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-virus"></i></a>
+
+
+                </div>
+
+            </div>
+           
+            <div class="work">
+                <img src="pooja pic12.jpg">
+                <div class="layer">
+                    <h3>Amazon Clone</h3>
+                    <p>An Amazon clone app is a mobile application that replicates the functionality and features of the popular e-commerce platform, Amazon. It allows users to browse and purchase products, track orders, leave reviews, and more, just like on the original Amazon website.
+                    </p>
+                    <a href="#"><i class="fa-brands fa-cc-amazon-pay"></i></a>
+
+                </div>
+           </div>
+            <div class="work">
+                <img src="pooja.jpg">
+                <div class="layer">
+                    <h3>Portfolio Website </h3>
+                    <p>A portfolio website is a curated, online space that showcases your best work. It's one of the most practical and memorable ways to share your work with press, potential collaborators.
+                    </p>
+                    <a href="file:///E:/portfolio%201/index.html"><i class="fa-solid fa-file-user"></i></a>
+
+                </div>
+           </div>
+        </div>
+        <a href="#" class="btn">See more</a> 
+     </div>
+    </div>
+    <!----------contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+              <div class="contact-left">
+                   <h1 class="sub-title">Contact<span> Me</span></h1>
+                   <p><i class="fa-solid fa-envelope"></i>sagarikamishra413@gmail.com</p>
+                   <p><i class="fa-solid fa-phone"></i>8984706836</p>
+                   <div class="Social">
+                    <a href="www.linkedin.com/in/sagarika-mishra-b8551126b"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/Sagarik32001468"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/sagarikamishra_sags/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://github.com/sagarikamishra99"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                     <a href="c:\Users\91898\OneDrive\Documents\pooja.Cv.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                 <div class="contact-right">
+                     <form name="submit-to-google-sheet">
+                         <input type="text" name="Name" placeholder="Your Name" required>
+                         <input type="email" name="Email" placeholder="Your Email" required>
+                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                         <button type="submit" class="btn btn2">Submit</button>
+                     </form>
+                     <span id="msg">hello</span>
+                 </div>
+             </div>
+          </div>
+          <div class="copyright">
+            <p>Copyright @ Sagarika. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+
+          </div>
+     </div>
+     <div class="contact-me">
+        <p>Let Me Get You A Beautiful Website.</p>
+        <a class="button-two" href="#">Hire Me</a>
+      </div>
+
+    
+
+<Script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents"); 
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</Script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-100px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw5llgc_TbXvJ0F0q2BoE9aAnU-yQ9AalgY1IxTKKiFVir18yWrxqQFOdYV6GPGQH_CzA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
